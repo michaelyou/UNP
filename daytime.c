@@ -27,8 +27,8 @@ int main(int argc, char *argv[])
 
     if(connect(sockfd, (struct sockaddr *)&servaddr, sizeof(servaddr)) < 0)
         printf("connect error\n");
-        perror("connect");
-    while((n=read(sockfd,recvline,MAXLINE))>0){
+        //perror("connect");
+    while((n = read(sockfd, recvline, MAXLINE)) > 0){
         recvline[n] = 0;
         if(fputs(recvline, stdout) == EOF)
             printf("fputs error\n");
