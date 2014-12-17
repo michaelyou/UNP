@@ -1,0 +1,63 @@
+0000000   #   i   n   c   l   u   d   e       <   s   t   d   i   o   .
+0000020   h   >  \r  \n   #   i   n   c   l   u   d   e       <   n   e
+0000040   t   d   b   .   h   >  \r  \n   #   i   n   c   l   u   d   e
+0000060       <   s   t   d   l   i   b   .   h   >  \r  \n   #   i   n
+0000100   c   l   u   d   e       <   s   t   r   i   n   g   .   h   >
+0000120  \r  \n  \r  \n   #   d   e   f   i   n   e       M   A   X   L
+0000140   I   N   E 241 241   4   0   9   6  \r  \n  \r  \n   i   n   t
+0000160       m   a   i   n   (   i   n   t       a   r   g   c   ,    
+0000200   c   h   a   r       *   a   r   g   v   [   ]   )  \r  \n   {
+0000220  \r  \n                   i   n   t       s   o   c   k   f   d
+0000240   ,       n   ;  \r  \n                   c   h   a   r       r
+0000260   e   c   v   l   i   n   e   [   M   A   X   L   I   N   E    
+0000300   +       1   ]   ;  \r  \n                   s   t   r   u   c
+0000320   t       s   o   c   k   a   d   d   r   _   i   n       s   e
+0000340   r   v   a   d   d   r   ;  \r  \n  \r  \n                   i
+0000360   f   (   a   r   g   c       !   =       2   )       {  \r  \n
+0000400                                   p   r   i   n   t   f   (   "
+0000420   u   s   a   g   e   :       %   s       <   I   P   a   d   d
+0000440   r   e   s   s   >   \   n   "   ,       a   r   g   v   [   0
+0000460   ]   )   ;  \r  \n                   }  \r  \n  \r  \n        
+0000500           i   f   (   (   s   o   c   k   f   d       =       s
+0000520   o   c   k   e   t   (   A   F   _   I   N   E   T   ,       S
+0000540   O   C   K   _   S   T   R   E   A   M   ,       0   )   )    
+0000560   <       0   )       {  \r  \n                                
+0000600   p   r   i   n   t   f   (   "   s   o   c   k   e   t       e
+0000620   r   r   o   r   \   n   "   )   ;  \r  \n                   }
+0000640  \r  \n  \r  \n                   b   z   e   r   o   (   &   s
+0000660   e   r   v   a   d   d   r   ,       s   i   z   e   o   f   (
+0000700   s   e   r   v   a   d   d   r   )   )   ;  \r  \n            
+0000720       s   e   r   v   a   d   d   r   .   s   i   n   _   f   a
+0000740   m   i   l   y       =       A   F   _   I   N   E   T   ;  \r
+0000760  \n                   s   e   r   v   a   d   d   r   .   s   i
+0001000   n   _   p   o   r   t       =       h   t   o   n   s   (   1
+0001020   3   )   ;  \r  \n                   i   f   (   i   n   e   t
+0001040   _   p   t   o   n   (   A   F   _   I   N   E   T   ,       a
+0001060   r   g   v   [   1   ]   ,       &   s   e   r   v   a   d   d
+0001100   r   .   s   i   n   _   a   d   d   r   )       <       0   )
+0001120  \r  \n                                   p   r   i   n   t   f
+0001140   (   "   i   n   e   t   _   p   t   o   n       e   r   r   o
+0001160   r       f   o   r       %   s   \   n   "   ,       a   r   g
+0001200   v   [   1   ]   )   ;  \r  \n  \r  \n                   i   f
+0001220   (   c   o   n   n   e   c   t   (   s   o   c   k   f   d   ,
+0001240       (   s   t   r   u   c   t       s   o   c   k   a   d   d
+0001260   r       *   )   &   s   e   r   v   a   d   d   r   ,       s
+0001300   i   z   e   o   f   (   s   e   r   v   a   d   d   r   )   )
+0001320       <       0   )  \r  \n                                   p
+0001340   r   i   n   t   f   (   "   c   o   n   n   e   c   t       e
+0001360   r   r   o   r   \   n   "   )   ;  \r  \n                   w
+0001400   h   i   l   e   (   (   n   =   r   e   a   d   (   s   o   c
+0001420   k   f   d   ,   r   e   c   v   l   i   n   e   ,   M   A   X
+0001440   L   I   N   E   )   )   >   0   )   {  \r  \n                
+0001460                   r   e   c   v   l   i   n   e   [   n   ]    
+0001500   =       0   ;  \r  \n                                   i   f
+0001520   (   f   p   u   t   s   (   r   e   c   v   l   i   n   e   ,
+0001540       s   t   d   o   u   t   )       =   =       E   O   F   )
+0001560  \r  \n                                                   p   r
+0001600   i   n   t   f   (   "   f   p   u   t   s       e   r   r   o
+0001620   r   "   )   ;  \r  \n                   }  \r  \n  \r  \n    
+0001640               i   f   (   n       <       0   )  \r  \n        
+0001660                           p   r   i   n   t   f   (   "   r   e
+0001700   a   d       e   r   r   o   r   "   )   ;  \r  \n  \r  \n    
+0001720               e   x   i   t   (   0   )   ;  \r  \n   }  \r  \n
+0001740
